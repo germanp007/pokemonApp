@@ -1,0 +1,31 @@
+.buttons-container {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  background-color: #db194f;
+  border: 2px solid #db194f;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+button:active {
+  transform: translateY(4px);
+}
+.button-box {
+  position: relative;
+}
+.button-shadow {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #178fc0;
+  position: absolute;
+  top: 5px;
+  z-index: -1;
+}
